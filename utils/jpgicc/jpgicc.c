@@ -74,7 +74,7 @@ cmsUInt16Number Alarm[4] = {128,128,128,0};
 
 
 static
-void my_error_exit (j_common_ptr cinfo)
+void my_error_exit (LJPEG_j_common_ptr cinfo)
 {
   char buffer[JMSG_LENGTH_MAX];
 
